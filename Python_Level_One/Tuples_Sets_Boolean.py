@@ -28,7 +28,7 @@ x.add(4)
 print(x)
 # can print out in any way possible
 # print out 4 only once because it only takes in unique elements
-# oce an element is already in set, you can not keep adding it multiple times
+# once an element is already in set, you can not keep adding it multiple times
 
 # which makes set call really convenient to call on a list of multiple elements
 converted = set([1,1,2,2,3,3,3,3])

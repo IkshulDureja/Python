@@ -57,3 +57,16 @@ print(listfour[2][1])
 matrix = [[1,2,3],[4,5,6],[7,8,9]]
 first_col = [row[0] for row in matrix]
 print(first_col)
+
+
+# Lambda Expression
+
+# filter
+
+mylist = [1,2,3,4,5,6,7,8]
+
+def even_bool(num):
+    return num%2 == 0
+
+evens = filter(even_bool,mylist)
+print(list(evens))

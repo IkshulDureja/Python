@@ -1,5 +1,5 @@
 # DICTIONARIES
-
+# Dictionaries don't retain any sort of order
 my_stuff = {'key1':123,'key2':'value2', 'key3' : {'123':[1,2,'GrabMe']}}
 # print(my_stuff['key2'])
 # print(my_stuff)

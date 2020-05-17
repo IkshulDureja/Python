@@ -50,7 +50,7 @@ print(d1['simple_key'])
 d2 = {'k1':{'k2':'hello'}}
 print(d2['k1']['k2'])
 d3 = {'k1':[{'nest_key':['this is deep',['hello']]}]}
-print(d3['k1']['nest_key'][1])
+print(d3['k1'][0]['nest_key'][1][0])
 
 ###############
 ## Problem 4 ##
@@ -58,8 +58,8 @@ print(d3['k1']['nest_key'][1])
 
 # Use a set to find the unique values of the list below:
 mylist = [1,1,1,1,1,2,2,2,2,3,3,3,3]
-
-
+x = set(mylist)
+print(x)
 ###############
 ## Problem 5 ##
 ###############
@@ -70,3 +70,5 @@ name = "Sammy"
 
 # Use print formatting to print the following string:
 "Hello my dog's name is Sammy and he is 4 years old"
+z = "Hello my dog's name is {a} and he is {b} years old".format(a = name, b = age)
+print(z)
